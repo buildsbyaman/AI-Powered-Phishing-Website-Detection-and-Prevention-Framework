@@ -1,6 +1,6 @@
 """
-Flask Web Application — Hybrid Phishing Detection Framework
-============================================================
+Flask Web Application — AI-Powered Phishing Website Detection and Prevention Framework
+========================================================================================
 Integrates all three detection modules:
   Module A: URL heuristic-based risk scorer (rule-based, no ML)
   Module B: Content/NLP-based classifier

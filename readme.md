@@ -165,7 +165,7 @@ This project builds a **three-module hybrid framework** that fuses URL heuristic
 
 ### 5.2 Repository Structure
 ```
-Fraud Website Detection/
+AI-Powered Phishing Website Detection and Prevention Framework/
 ├── app.py                          # Flask application (routes, fusion, Module B/C integration)
 ├── moduleA.py                      # Module A: URL heuristic risk scorer (rule-based, no ML)
 ├── moduleB.py                      # Module B: Content/NLP classifier training + evaluation
@@ -179,7 +179,7 @@ Fraud Website Detection/
 │   └── module_b_dataset.csv        # Cached content features
 ├── outputs/                        # Training metrics and plots
 ├── templates/
-│   └── index.html                  # PhishShield UI (dark/light theme, protocol dropdown)
+│   └── index.html                  # Web UI (dark/light theme, protocol dropdown)
 ├── .env                            # API keys (URLHAUS_API_KEY, VT_API_KEY)
 ├── .gitignore
 ├── requirements.txt
@@ -189,7 +189,7 @@ Fraud Website Detection/
 ### 5.3 Setup Instructions
 ```bash
 git clone <repo-url>
-cd "Fraud Website Detection"
+cd "AI-Powered Phishing Website Detection and Prevention Framework"
 python3 -m venv phishenv
 source phishenv/bin/activate      # Windows: phishenv\Scripts\activate
 pip install -r requirements.txt
