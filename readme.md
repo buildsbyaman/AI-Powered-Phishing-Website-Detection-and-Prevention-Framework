@@ -261,6 +261,12 @@ Module B (content/NLP) carries the most weight (60%) and achieves 90% accuracy w
 - **Frontend:** Single-page UI with protocol dropdown (https/http), dark/light theme toggle, and real-time status feed during analysis.
 - **Running locally:** `python3 app.py` starts the server on `http://localhost:5000`.
 
+### UI Screenshots
+
+| Legitimate Website Analysis | Phishing Website Analysis |
+| :---: | :---: |
+| ![Legitimate Result](legit.png) | ![Phishing Result](Phishing.png) |
+
 ---
 
 ## 8. Conclusion and Future Work
