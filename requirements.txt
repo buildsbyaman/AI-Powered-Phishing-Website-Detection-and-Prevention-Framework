@@ -1,52 +1,11 @@
-# =============================================================================
-# Install All (full project)
-# =============================================================================
-# pip3 install numpy pandas scikit-learn matplotlib joblib requests xgboost scipy beautifulsoup4 tldextract flask
-
-# =============================================================================
-# Common Dependencies (used by multiple modules)
-# =============================================================================
-# pip3 install numpy pandas scikit-learn matplotlib joblib requests flask python-dotenv
 numpy
 pandas
 scikit-learn
-matplotlib                          # optional — only needed for plotting
+scipy
 joblib
 requests
 flask
 python-dotenv
-
-# =============================================================================
-# Module A — URL Feature-Based Classifier (moduleA.py)
-# =============================================================================
-# xgboost requires libomp (OpenMP runtime) on macOS:
-#   brew install libomp
-# Then add these to ~/.zshrc (or ~/.bash_profile) to avoid setting them each time:
-#   export LDFLAGS="-L/opt/homebrew/opt/libomp/lib"
-#   export CPPFLAGS="-I/opt/homebrew/opt/libomp/include"
-# pip3 install xgboost
-xgboost                             # optional — used if installed, skipped otherwise
-
-# =============================================================================
-# Module B — Content/NLP-Based Classifier (moduleB.py)
-# =============================================================================
-# pip3 install scipy
-scipy
-
-# =============================================================================
-# Module C — Reputation Check (moduleC.py)
-# =============================================================================
-# all dependencies covered by Common section above
-
-# =============================================================================
-# Content Extraction (ContentExtraction.py)
-# =============================================================================
-# pip3 install beautifulsoup4 tldextract
 beautifulsoup4
 tldextract
-
-# =============================================================================
-# Web App (app.py)
-# =============================================================================
-# pip3 install flask
-# Run: python3 app.py
+matplotlib
